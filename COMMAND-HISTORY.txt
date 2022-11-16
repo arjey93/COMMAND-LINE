@@ -1,0 +1,129 @@
+gitpod /workspace/exercise-termingitpod /workspace/exercise-terminal
+-challenge (master) $ cd "/work
+space/exercise-terminal-challenge/thecmdchallenge"
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (mas
+ter) $ pwd
+/workspace/exercise-terminal-challenge/thecmdchallenge
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (mas
+ter) $ ls -a
+.                  funcode
+..                 kamehameha
+boringfolder       small-name
+console_master.md
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (mas
+ter) $ ls -R
+.:
+boringfolder       kamehameha
+console_master.md  small-name
+funcode
+
+./boringfolder:
+babel.png
+breathecode.shadow.png
+c9.png
+css3.png
+dropzone.js
+event-more-boring
+hello.txt
+html5.png
+jquery.png
+js.png
+sass.png
+scale.fix.js
+webpack.png
+
+./boringfolder/event-more-boring:
+i-can-believe-how-boring
+
+./boringfolder/event-more-boring/i-can-believe-how-boring:
+the-ulrimate-boring-inception
+
+./boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception:
+myfirstcopy.txt
+the-mostboring-text.txt
+
+./funcode:
+baby.jpg
+baby.success.1.jpg
+baby.success.jpg
+borat.success.1.jpg
+borat.success.jpg
+einstein.1.png
+einstein.png
+forms.1.html
+forms.html
+frame.1.html
+frame.html
+images
+invalid.png
+keyboard.1.html
+keyboard.html
+kids.1.jpg
+kids.jpg
+mouse.1.html
+mouse.html
+regexer.1.css
+regexer.1.js
+regexer.css
+regexer.js
+rigoberto.1.jpg
+rigoberto.jpg
+scared-baby.1.jpg
+scared-baby.jpg
+script.js
+the-most-funny
+valid.png
+view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+
+./funcode/images:
+hello
+
+./funcode/images/hello:
+invalid.png
+
+./funcode/the-most-funny:
+lol
+
+./funcode/the-most-funny/lol:
+the-ultimate-joke.txt
+
+./kamehameha:
+dragon-ball-jokes.md
+
+./small-name:
+bigger-name-than-before
+
+./small-name/bigger-name-than-before:
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type:
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious:
+trophy.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (mas
+ter) $ 
+reset
+
+cd "/workspace/exercise-terminal-challenge/thecmdchallenge/funcode"
+find . -type f -name "*.js"
+
+cd "/workspace/exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny"
+mkdir not-that-funny
+
+cd "/workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder"
+cp the-mostboring-text.txt lol.txt
+
+mv /workspace/exercise-terminal-challenge/thecmdchallenge/funcode/kids.jpg /workspace/exercise-terminal-challenge/thecmdchallenge/funcode/images/
+
+rmdir small-name
+
+more the-ultimate-joke.txt
+
+rm -rf boringfolder
+
+install vim 
+cd "/workspace/exercise-terminal-challenge/thecmdchallenge/kamehameha"
+vim dragon-ball-jokes.md
+
+after deleting first line press :w to save changes and then type :qa! to exit vim
